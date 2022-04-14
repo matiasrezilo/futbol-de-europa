@@ -258,6 +258,13 @@ footer {
   color: white !important;
 }
 
+.contenedor-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 1200px) {
   .home {
     grid-template-areas: 
