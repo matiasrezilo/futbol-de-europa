@@ -1,0 +1,10 @@
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo-home {
+    @extend .titulo;
+    font-size: 30px;
+}

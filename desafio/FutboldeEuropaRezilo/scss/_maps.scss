@@ -1,0 +1,7 @@
+$mapRedes: ("facebook":#2360b2, "instagram":#b801a1);
+
+@each $red, $color in $mapRedes {
+    .bg-#{$red} {
+        background-color: $color !important;
+    }
+}
