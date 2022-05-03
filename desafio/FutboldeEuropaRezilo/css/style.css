@@ -43,6 +43,12 @@
   background-color: #b801a1 !important;
 }
 
+.card {
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
 .titulo, .titulo-home {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;

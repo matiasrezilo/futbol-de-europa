@@ -5,3 +5,15 @@ $mapRedes: ("facebook":#2360b2, "instagram":#b801a1);
         background-color: $color !important;
     }
 }
+
+$estilos: (
+    color: white,
+    centro: center,
+    tFuente: 15px,
+);
+
+.card {
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    font-size:map-get($estilos, tFuente);
+}
